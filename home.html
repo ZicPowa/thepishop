@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<!-- stylesheets: icons; main.css -->
+		<link rel="stylesheet" href="main.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<title>Pi Shop</title>
+	</head>
+
+	<body>
+        <!-- Header -->
+		<div class="header">
+				<a href="home.html"><h1 class="header">The Pi Shop</h1></a>
+            	<a href="home.html" class="mobile-header"><h1 class="mobile-header">The Pi Shop</h1></a>
+            	<a href="pifive.html" class="header">Pi 5</a>
+				<a href="pifour.html" class="header">Pi 4</a>
+				<a href="pizero.html" class="header">Zero</a>
+				<a href="pipicow.html" class="header">Pico</a>
+		</div>
+		<div class="slider">
+			<div class="slides">
+				<a href="pifour.html"><img class="slide" src="pifourimage.jpg" alt="Raspberry Pi 4"></a>
+				<a href="pifive.html"><img class="slide" src="pifiveimage.jpg" alt="Raspberry Pi 5"></a>
+				<a href="pizero.html"><img class="slide" src="pizero.png" alt="Raspberry Pi zero"></a>
+				<a href="pipicow.html"><img class="slide" src="picow.png" alt="Pi Pico (wireless version) microcontroller"></a>
+			</div>
+			<button class="prev" onclick="prevSlide()">&#10094</button>
+			<button class="next" onclick="nextSlide()">&#10095</button>
+		</div>
+		<script src="index.js"></script>
+
+		<div class="reviews-container">
+			<div class="review">
+				<p>The Raspberry Pi Pico is an interesting piece of kit. It is more Arduino than Raspberry Pi and so the lines are a little blurry. If you need a Raspberry Pi in a small space with Wi-Fi / Bluetooth, buy a Raspberry Pi Zero W. If you want to embed a control board into a project and have it work quickly and reliably then the Pico is for you. For an official and well supported entry into Arm Cortex M0+ boards, the Raspberry Pi Pico is hard to beat.</p>
+				<br>
+				<br>
+				<p>-Tom's Guide</p>
+			</div>
+			<div class="review">
+				<p>With Model 5 and the new Raspberry Pi OS, the Raspberry Pi Foundation does almost everything right: even demanding program such as Firefox, Chromium, and VS Code run absolutely smoothly on the desktop. Working is simply fun. In normal use, the mini computer is still silent. If a fan is installed, it only starts during longer CPU-intensive work. The Pi 5 is ideal for server use (NAS), as a media center, for home automation, or as a desktop.</p>
+				<br>
+				<br>
+				<p>-PC World</p>
+			</div>
+			<div class="review">
+				<p>It's clear: The new processor architecture and the new, higher memory options result in the best-performing Raspberry Pi yet, at least if you opt for the version with 4GB of RAM. Improvements to connectivity and networking mean that the Pi 4 is also more versatile than its predecessors. As long as you're careful about managing heat and possess a fair amount of programming know-how (or willingness to learn), this single-board computer is equally adept as a budget desktop PC or the brains of an artificially intelligent robot.</p>
+				<br>
+				<br>
+				<p>-PC Mag Australia</p>
+			</div>
+		</div>
+		<div class="news-buynow-wrapper">
+			<div class="contact-us">
+				<h2>Sign up for our newsletter!</h2>
+				<p>The Pi Shop newsletter features everything you need to know on electronics, new releases in our store, exciting new products and even project ideas!</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div class="input-wrapper">
+					<input type="email" name="EmailAddress" placeholder="Enter your email address">
+					<a href="newsletter-signup-landing.html"><button type="submit">Sign Up!</button></a>
+				</div>
+			</div>
+	
+			<div class="buy-now">
+				<h2>Pricing</h2>
+					<p><strong>Pico W</strong> $6</p>
+					<br>
+					<br>
+					<p><strong>Pi Zero</strong> $25</p>
+					<br>
+					<br>
+					<p><strong>Pi 5</strong> $120</p>
+					<br>
+					<br>
+					<p><strong>Pi 4</strong> $80</p>
+					<br>
+					<br>
+					<p><strong>Shipping</strong> NSW $20</p>
+					<p>Australia-wide $35</p>
+	
+			</div>
+
+		</div>
+		
+
+
+		<div class="footer">
+			<p class="footer">Thanks for shopping at <em>The Pi Shop</em></p>
+			<br>
+			<a href="aboutus.html">About Us</a>
+		</div>
+		
+	</body>
+</html>
